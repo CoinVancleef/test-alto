@@ -1,4 +1,4 @@
-name: Run Datadog Synthetic tests
+name: vercel prod
 
 on:
   push:
