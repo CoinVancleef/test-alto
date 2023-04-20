@@ -1,4 +1,4 @@
-name: Run Datadog Synthetic tests
+name: worker prod
 
 on:
   push:
