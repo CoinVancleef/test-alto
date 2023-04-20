@@ -17,25 +17,3 @@ jobs:
     # For additional configuration options visit the action within the marketplace: https://github.com/marketplace/actions/datadog-synthetics-ci
     - name: Run Datadog Synthetic tests
       run: exit 1 # This job will fail
-
-  job2:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-
-    # Run Synthetic tests within your GitHub workflow.
-    # For additional configuration options visit the action within the marketplace: https://github.com/marketplace/actions/datadog-synthetics-ci
-    - name: Run Datadog Synthetic tests
-      run: exit 0 # This job will succeed
-
-  job3:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-
-    # Run Synthetic tests within your GitHub workflow.
-    # For additional configuration options visit the action within the marketplace: https://github.com/marketplace/actions/datadog-synthetics-ci
-    - name: Run Datadog Synthetic tests
-      run: exit 0 # This job will succeed
